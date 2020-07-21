@@ -2,7 +2,7 @@ import tweepy
 import time
 
 auth  = tweepy.OAuthHandler('ECDpZsao2nvABSH9EZqkO0srV', 'T7rw50SdltpcTe4Gw7jaJbQaxgQlYE3wWmMUAlGF2foMZLc977')
-auth.set_access_token('1280167743149551621-Vw4ASQHL6uCc6qUPw6u66UVSLCtS2G', 'S46REsXSNyiLn0S2dQWFuIO1RG5BRBABls0AuRNDZQyeJ')
+auth.set_access_token('1280167743149551621-Vw4ASQHL64uCc6qUPw6u66UVSLCtS2ASWG', 'S46REsXSNyiLn0S2dQWFuIO1RG5BRBBABls0AuRNDZr42QyeJ')
 
 api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
